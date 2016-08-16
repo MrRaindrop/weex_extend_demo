@@ -1,12 +1,10 @@
 # weex_extend_demo
 
-```
 This is a simple demo for weex to extend a self-defined component on web platform using weex-html5. In this demo we created a component named 'mine' and installed it to run. 
 
 This demo contains component defining and specify its attribute, style and events. You can set your attribute setters, style setters and event configuration in your component's implementation, and also override the methods like 'create' of the base class 'Component'.
-```
 
-![]()
+![showcase](//gw.alicdn.com/mt/TB1djzeLpXXXXaNXXXXXXXXXXXX-1131-396.png)
 
 ## STEPS to demonstrate
 
