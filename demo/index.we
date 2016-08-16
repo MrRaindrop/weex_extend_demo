@@ -1,0 +1,15 @@
+<template>
+  <div>
+    <mine style="txt-color:#fff;bg-color:green" value="WEEX" onclick="handleClick"></mine>
+  </div>
+</template>
+
+<script>
+  module.exports = {
+    methods: {
+      handleClick (e) {
+        alert('e.value : ' + e.value)
+      }
+    }
+  }
+</script>
