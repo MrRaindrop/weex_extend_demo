@@ -1,10 +1,10 @@
-// require the original weex-html5.
+// import the original weex-html5.
 import weex from 'weex-html5'
 import hello from 'weex-hello'
-// install mine component 'mine'.
+// install the component.
 weex.install(hello)
 
-// init the weex and load the bundle of 'test.we'.
+// init the weex and load the bundle of 'demo/index.we'.
 ; (function () {
   function getUrlParam (key) {
     const reg = new RegExp('[?|&]' + key + '=([^&]+)')
@@ -24,7 +24,6 @@ weex.install(hello)
     appId: location.href,
     loader: loader,
     source: page,
-    rootId: 'weex',
-    downgrade: []  // 'list', 'scroller'
+    rootId: 'weex'
   })
 })()
