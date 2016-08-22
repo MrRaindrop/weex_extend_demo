@@ -1,9 +1,8 @@
 // require the original weex-html5.
 import weex from 'weex-html5'
-
-import mine from './components/mine'
+import hello from 'weex-hello'
 // install mine component 'mine'.
-weex.install(mine)
+weex.install(hello)
 
 // init the weex and load the bundle of 'test.we'.
 ; (function () {
@@ -14,7 +13,7 @@ weex.install(mine)
   }
 
   const loader = getUrlParam('loader') || 'xhr'
-  const page = getUrlParam('page') || 'examples/build/index.js'
+  const page = getUrlParam('page') || 'demo/build/index.js'
 
   // jsonp callback name should be specified or be the default
   // value 'weexJsonpCallback' if the 'jsonp' loader is used.

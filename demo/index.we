@@ -1,6 +1,16 @@
+<style>
+  .hello {
+    width: 375;
+    height: 80;
+    line-height: 80;
+    font-size: 32;
+  }
+</style>
+
 <template>
   <div>
-    <mine style="txt-color:#fff;bg-color:green" value="WEEX" onclick="handleClick"></mine>
+    <weex-hello class="hello" style="txt-color:#fff;bg-color:green" value="WEEX" onclick="handleClick">
+    </weex-hello>
   </div>
 </template>
 

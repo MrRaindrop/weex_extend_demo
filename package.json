@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "weex-html5": "^0.3.1"
+    "weex-hello": "^0.1.1",
+    "weex-html5": "^0.3.2"
   },
   "scripts": {
     "build": "webpack --config webpack.config.js",
