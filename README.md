@@ -12,7 +12,7 @@ This is a simple demo for weex to extend a self-defined component on web platfor
 2. `npm run transform`
 3. `npm run build`
 4. `npm run serve`
-5. visit `http://localhost:12580/index.html?page=./demo/build/test.js`, then you'll see the demo page.
+5. visit `http://localhost:12580/index.html`, then you'll see the demo page.
 
 ## STEPS for extending
 
